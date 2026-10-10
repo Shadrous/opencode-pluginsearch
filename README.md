@@ -32,8 +32,11 @@ Details worth knowing:
 ## Install
 
 ```sh
-opencode plugin add github:Shadrous/opencode-pluginsearch
+opencode plugin add opencode-pluginsearch
 ```
+
+(Or, to install straight from source:
+`opencode plugin add github:Shadrous/opencode-pluginsearch`.)
 
 Then restart the OpenCode service (or reload the session) and run
 `/pluginsearch <query>`.
